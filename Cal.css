@@ -1,0 +1,35 @@
+#calculator{
+  border: 2px solid black;
+  width: 220px;
+  margin: 70px auto;
+}
+#display{
+  background-color: rgb(204, 197, 197);
+  border: 1px solid black;
+  width: 87%;
+  height: 30px;
+  margin: 10px;
+}
+.button-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#operation{
+  color: blue;
+}
+#special_operation{
+  background-color: blue;
+  color: white;
+}
+.button{
+  font-size: 17px;
+  font-weight: bold;
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: silver ;
+  border: none;
+}
